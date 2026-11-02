@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.1" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_1.xsd">
+    
+    
+    <welcome-file-list>
+        <welcome-file>cineServlet</welcome-file>
+    </welcome-file-list>
+    
+    <servlet>
+        <servlet-name>cineServlet</servlet-name>
+        <servlet-class>my.webapp.cine.cineServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cineServlet</servlet-name>
+        <url-pattern>/cineServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
